@@ -92,6 +92,8 @@ a:hover, a:focus-visible { border-bottom-color: var(--ink); outline: none; }
 .chrome .links { display: inline-flex; gap: 2.5ch; }
 .chrome .links a { color: var(--ink); border-bottom: 0; padding: 0 2px; }
 .chrome .links a:hover, .chrome .links a:focus-visible { background: var(--ink); color: var(--bg); }
+.chrome .links a.icon { display: inline-flex; align-items: center; }
+.chrome .links a.icon svg { width: 1.15em; height: 1.15em; display: block; }
 .theme-switch { display: inline-flex; gap: 0; }
 .theme-switch button {
   font: inherit; color: var(--ink); background: transparent;
