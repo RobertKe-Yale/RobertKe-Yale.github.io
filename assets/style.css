@@ -211,6 +211,9 @@ h3.label { margin: 9vh 0 4vh; color: var(--mute); }
 /* education */
 .edu b { font-weight: 500; font-variant: small-caps; letter-spacing: .05em; }
 .edu .meta { display: block; font-family: var(--mono); font-size: 12px; color: var(--mute); margin-top: .5em; line-height: 1.6; text-align: left; }
+.edu .labs { margin-top: 1.2em; }
+.edu .labs span[lang="fr"] { font-style: italic; }
+.edu .labs a { color: var(--ink); }
 
 /* ---------------- paper "files" ---------------- */
 .paper { margin: 0 0 20vh; }
