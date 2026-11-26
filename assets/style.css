@@ -262,6 +262,9 @@ figure.fig figcaption b { color: var(--ink); font-weight: 500; }
 .eod a { color: var(--ink); }
 
 .empty { font-family: var(--mono); font-size: 13px; line-height: 2; }
+.track { text-align: left; hyphens: manual; }
+.track .tag { font-family: var(--mono); font-size: 11px; letter-spacing: .05em; display: block; margin-bottom: .8em; color: var(--mute); }
+.track p { font-size: 1.25em; line-height: 1.35; }
 .aside { font-size: 14px; font-style: italic; color: var(--mute); margin-top: 6vh; text-align: left; hyphens: manual; }
 h1.title .amp { font-style: italic; font-size: .82em; margin: 0 .04em; }
 
