@@ -89,6 +89,9 @@ a:hover, a:focus-visible { border-bottom-color: var(--ink); outline: none; }
 }
 .chrome-rule.double { border-top: 3px double var(--rule); }
 
+.chrome .links { display: inline-flex; gap: 2.5ch; }
+.chrome .links a { color: var(--ink); border-bottom: 0; padding: 0 2px; }
+.chrome .links a:hover, .chrome .links a:focus-visible { background: var(--ink); color: var(--bg); }
 .theme-switch { display: inline-flex; gap: 0; }
 .theme-switch button {
   font: inherit; color: var(--ink); background: transparent;
